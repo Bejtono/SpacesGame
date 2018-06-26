@@ -13,11 +13,14 @@ public class Ship_Move : MonoBehaviour {
     public float fireRate;
     public float xMin, xMax;
     private GameObject shot_clone;
+    private int score;
+   
 
     // Use this for initialization
     void Start() {
         rg2d = GetComponent<Rigidbody2D>();
-        
+        score = 0;
+        UpdateScore();
 	}
 	
 	// Update is called once per frame
@@ -48,5 +51,15 @@ public class Ship_Move : MonoBehaviour {
         Destroy(shot_clone, 2.0f);
 
         
+    }
+    public void AddScore(int newScoreValue)
+    {
+        score += newScoreValue;
+        UpdateScore();
+    }
+
+    void UpdateScore()
+    {
+       // scoreText.text = "Score: " + score;
     }
 }

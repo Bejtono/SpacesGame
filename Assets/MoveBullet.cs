@@ -6,6 +6,7 @@ public class MoveBullet : MonoBehaviour {
 
     // Use this for initialization
     public Rigidbody2D rg2d;
+    int score = 0;
 	void Start () {
         rg2d.GetComponent<Rigidbody2D>();
 	}
@@ -20,6 +21,8 @@ public class MoveBullet : MonoBehaviour {
         {
             Destroy(coll.gameObject);
             Destroy(gameObject);
+            score += 1;
+            ScoreTextScript.scoreValue += 1;
             
         }
     }

@@ -1,4 +1,3 @@
-C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\Bejton\Documents\SpacesGame\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Bejton\Documents\SpacesGame\Temp\bin\Debug\Assembly-CSharp.pdb
@@ -166,3 +165,4 @@ C:\Users\Bejton\Documents\SpacesGame\Temp\bin\Debug\UnityEngine.SpatialTracking.
 C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Bejton\Documents\SpacesGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
